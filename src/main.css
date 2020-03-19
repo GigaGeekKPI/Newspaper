@@ -1,0 +1,29 @@
+.intro {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro p {
+    width: 70%;
+    margin: auto;
+}
+
+.intro img {
+    margin: auto;
+}
+
+main {
+    width: 60%;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+}
+
+section {
+    clear: both;
+}
