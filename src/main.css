@@ -66,6 +66,12 @@ hr {
     border: 2px dashed rgba(0, 102, 218, 0.65);
 }
 
-.related-line {
+.other-line {
     border: 2px dashed rgba(255, 136, 0, 0.774);
+}
+
+section article {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
 }
