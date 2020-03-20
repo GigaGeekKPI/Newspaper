@@ -27,3 +27,16 @@ aside {
 section {
     clear: both;
 }
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h1, h2, h3 {
+    font-family: Lobster, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
+}
