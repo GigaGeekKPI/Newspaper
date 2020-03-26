@@ -10,6 +10,11 @@ img {
     border-radius: 20px;
 }
 
+footer img, header img {
+    border-radius: 0;
+}
+
+
 /******** Main header ********/
 .intro-header {
     width: 100%;
@@ -68,6 +73,10 @@ h1::after {
     height: 2px;
 }
 
+.main-article figure {
+    min-width: 300px;
+}
+
 .main-article figure img {
     width: 100%;
 }
@@ -84,23 +93,34 @@ h1::after {
     margin-right: 10px;
 }
 
+
 /******** Side news ********/
-aside {
+.side-news {
     width: 30%;
     min-width: 300px;
     box-sizing: border-box;
 }
 
+.side-news article {
+    padding: 10px;
+    border: 0px solid rgb(255, 123, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+.side-news article:hover {
+    border-left: 7px solid rgb(255, 123, 0);
+}
+
 
 /******** Other news ********/
-section {
+.other-news {
     clear: both;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-section article {
+.other-news article {
     width: 33%;
     min-width: 300px;
     vertical-align: top;
