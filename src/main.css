@@ -6,6 +6,10 @@ h1, h2, h3 {
     font-family: 'Lobster', cursive;
 }
 
+img {
+    border-radius: 20px;
+}
+
 /******** Main header ********/
 .intro-header {
     width: 100%;
@@ -26,14 +30,18 @@ h1, h2, h3 {
 /******** Main article ********/
 main {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .main-article {
     width: 60%;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 5%;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -64,11 +72,23 @@ h1::after {
     width: 100%;
 }
 
+
+/******** Floated images ********/
+.float-right {
+    float: right;
+    margin-left: 10px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 10px;
+}
+
 /******** Side news ********/
 aside {
     width: 30%;
-    margin-right: 5%;
-    padding: 1rem;
+    min-width: 300px;
+    box-sizing: border-box;
 }
 
 
@@ -77,10 +97,12 @@ section {
     clear: both;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 section article {
-    width: 30%;
+    width: 33%;
+    min-width: 300px;
     vertical-align: top;
 }
 
