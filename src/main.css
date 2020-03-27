@@ -20,18 +20,17 @@ p {
 
 /******** Main header ********/
 .intro-header {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .intro-header p {
-    width: 70%;
-    margin: auto;
+    width: 60%;
 }
 
 .intro-header img {
-    margin: auto;
+    width: 200px;
 }
 
 
@@ -40,6 +39,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: flex-start;
 }
 
 .main-article {
@@ -62,7 +62,7 @@ h1::before {
     background-color: rgb(255, 123, 0);
     vertical-align: middle;
     margin-right: 10px;
-    width: 2em;
+    width: 3vw;
     height: 2px;
 }
 
@@ -72,7 +72,7 @@ h1::after {
     background-color: rgb(0, 183, 255);
     vertical-align: middle;
     margin-left: 10px;
-    width: 2em;
+    width: 3vw;
     height: 2px;
 }
 
@@ -122,6 +122,9 @@ p.right-border:hover {
     width: 30%;
     min-width: 300px;
     box-sizing: border-box;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
 }
 
 .side-news article {
@@ -146,7 +149,6 @@ p.right-border:hover {
 .other-news article {
     width: 33%;
     min-width: 300px;
-    vertical-align: top;
 }
 
 
