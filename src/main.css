@@ -84,18 +84,6 @@ h1::after {
     width: 100%;
 }
 
-
-/******** Floated images ********/
-.float-right {
-    float: right;
-    margin-left: 10px;
-}
-
-.float-left {
-    float: left;
-    margin-right: 10px;
-}
-
 p.left-border {
     padding-left: 10px;
     border-left: 0px solid rgba(0, 102, 218, 0.65);
@@ -114,6 +102,18 @@ p.right-border {
 
 p.right-border:hover {
     border-right: 7px solid rgba(0, 102, 218, 0.65);
+}
+
+
+/******** Floated images ********/
+.float-right {
+    float: right;
+    margin-left: 10px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 10px;
 }
 
 
