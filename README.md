@@ -1,4 +1,4 @@
 # Newspaper
-Tasks from FE/JS Spring 2020
+First task from FE/JS Spring 2020
 
 ![alt text](./overview.png)
